@@ -10,8 +10,8 @@ A custom starter boilerplate with php7, phalcon framework and live reload
 # Install
 
 ```bash
-$ npm Install
-$ composer Install
+$ npm install
+$ composer install
 $ ln -s 'PATH/TO/vendor/bin/phalcon.php' 'bin/phalcon'
 # check with:
 $ bin/phalcon commands
