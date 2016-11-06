@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cd dev/main/public && php -S 127.0.0.1:8010 &",
-    "poststart": "gulp && sleep 3 & xdg-open http://localhost:3001"
+    "poststart": "gulp && sleep 3 & google-chrome http://localhost:3001"
   },
   "author": "",
   "license": "ISC",
