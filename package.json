@@ -1,11 +1,11 @@
 {
   "name": "phalcon-starter-kit",
   "version": "1.0.0",
-  "description": "http://stackoverflow.com/questions/27251053/create-a-server-that-runs-php-with-gulp-and-livereload https://fettblog.eu/php-browsersync-grunt-gulp/",
+  "description": "A custom starter boilerplate with php7, phalcon framework and live reload",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd /home/htdocs/phalcon-starter-kit/dev/phalcon-starter-kit/public && php -S 127.0.0.1:8010 &",
+    "start": "cd app/public && php -S 127.0.0.1:8010 &",
     "poststart": "gulp & sleep 3 && google-chrome http://localhost:3001"
   },
   "author": "",

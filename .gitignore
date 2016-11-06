@@ -1,4 +1,6 @@
-/cache/
-/config/development/
-/node_modelues/
+app/cache
+app/config/development
+node_modulues
+vendor
 composer.lock
+.vscode
