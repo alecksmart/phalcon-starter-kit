@@ -1,6 +1,6 @@
 app/cache
 app/config/development
-node_modulues
-vendor
+/node_modules
+/vendor
 composer.lock
 .vscode
