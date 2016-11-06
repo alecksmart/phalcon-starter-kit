@@ -5,14 +5,24 @@ A custom starter boilerplate with php7, phalcon framework and live reload
 
  * npm
  * composer
- * phalcon extension for php
+ * phalcon extension running under php7
 
 # Install
 
 ```bash
+# preapre all
 $ npm install
 $ composer install
 $ ln -s 'PATH/TO/vendor/bin/phalcon.php' 'bin/phalcon'
 # check with:
 $ bin/phalcon commands
+# build application with devtools
+$ cd dev
+$ ../bin/phalcon project main
+# start environment
+$ npm start
 ```
+
+# Notes
+
+Tested on Linux only. Seems to be well-compliant with xdebug. For custom configuration, check file _package.json_.
