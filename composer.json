@@ -1,0 +1,16 @@
+{
+    "name": "alecksmart/phalcon-starter-kit",
+    "description": "Phalcon project boilerplate with live reload and more good stuff",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alecksmart",
+            "email": "info@rationalplanet.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phalcon/devtools": "dev-master"
+    }
+}
