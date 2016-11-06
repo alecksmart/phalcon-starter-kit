@@ -25,6 +25,6 @@ $ npm start
 
 # Notes
 
-To tesl live reload, edit, for instance, dev/app/views/index/index.volt and save it. See the browser reloading.
+To tesl live reload, edit, for instance, _dev/app/views/index/index.volt_ and save it. See the browser reloading.
 
 Tested on Linux only. Seems to be well-compliant with xdebug. For custom configuration, check file _package.json_.
