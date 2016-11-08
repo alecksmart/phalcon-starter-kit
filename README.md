@@ -3,9 +3,9 @@ A custom starter boilerplate with php7, phalcon framework and live reload
 
 # Pre-requisites
 
+ * phalcon extension running under php7
  * npm
  * composer
- * phalcon extension running under php7
 
 # Install
 
