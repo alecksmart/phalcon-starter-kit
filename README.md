@@ -44,7 +44,7 @@ Tested under Linux only. Seems to be well-compliant with xdebug. For custom conf
     * RESTful api
   * frontend
     * bower components for javascript
-    * materializecss.com or bootstrap
+    * material-ui.com or bootstrap
     * axios for XMLHttpRequests
     * CRUD commons
   * unit testing
