@@ -52,7 +52,7 @@ To test live reload, edit, for instance, _dev/app/views/index/index.volt_ and sa
 
 Tested under Linux only. Seems to be well-compliant with xdebug. For custom configuration, check file _package.json_.
 
-# ToDo
+# Features
 
   * database
     - [X] easy database setup with Propel ORM
