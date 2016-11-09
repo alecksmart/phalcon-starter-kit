@@ -11,6 +11,7 @@
     ],
     "require": {},
     "require-dev": {
-        "phalcon/devtools": "dev-master"
+        "phalcon/devtools": "dev-master",
+        "propel/propel": "~2.0@dev"
     }
 }

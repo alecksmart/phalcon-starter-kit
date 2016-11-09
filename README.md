@@ -16,7 +16,6 @@ A custom starter boilerplate with php7, phalcon framework and live reload
 # preapre all
 $ npm install
 $ composer install
-$ ln -s 'PATH/TO/vendor/bin/phalcon.php' 'bin/phalcon'
 # check with:
 $ bin/phalcon commands
 # build application with devtools - skip this part
@@ -26,6 +25,10 @@ $ bin/phalcon commands
 # start environment
 $ npm start
 ```
+
+## Database
+
+We will use Propel 2 for databse design and maintaining database only leaving connecting to databse to _phalcon's_ internal orm.
 
 # Notes
 
