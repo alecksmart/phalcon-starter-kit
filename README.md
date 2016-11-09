@@ -55,23 +55,23 @@ Tested under Linux only. Seems to be well-compliant with xdebug. For custom conf
 # ToDo
 
   * database
-    * easy database setup with Propel ORM
-    * declarative incremental develoment
-    * incremental deployment to production
+    - [X] easy database setup with Propel ORM
+    - [ ] declarative incremental develoment
+    - [ ] incremental deployment to production
   * phalcon
-    * modules and configuration
-    * i18n with gettext
-    * K.I.S.S.: user auth and user groups
-    * K.I.S.S.: user CRUD
-    * RESTful api
+    - [ ] modules and configuration
+    - [ ] i18n with gettext
+    - [ ] K.I.S.S.: user auth and user groups
+    - [ ] K.I.S.S.: user CRUD
+    - [ ] RESTful api
   * frontend
-    * bower components for javascript
-    * i18n with gettext
-    * SemanticUI or Bootstrap
-    * axios for XMLHttpRequests
-    * CRUD commons
+    - [ ] bower components for javascript
+    - [ ] i18n with gettext
+    - [ ] SemanticUI or Bootstrap
+    - [ ] axios for XMLHttpRequests
+    - [ ] CRUD commons
   * unit testing
-    * phpUnit
-    * karma + protractor
+    - [ ] phpUnit
+    - [ ] karma + protractor
 
 
