@@ -14,14 +14,14 @@ A custom starter boilerplate with php7, phalcon framework and live reload
 
 ```bash
 # preapre all
-$ npm install
-$ composer Install
+npm install
+composer Install
 # check with:
-$ bin/phalcon commands
+bin/phalcon commands
 # build application with devtools - skip this part
-# $ cd dev
-# $ ../bin/phalcon project main
-# $ cd ..
+# cd dev
+# ../bin/phalcon project main
+# cd ..
 # start environment
 $ npm start
 ```
@@ -29,6 +29,20 @@ $ npm start
 ## Database
 
 We will use Propel 2 for databse design and maintaining database only leaving connecting to databse to _phalcon's_ internal orm.
+
+  1. Create a database:
+
+  ```sql
+  CREATE DATABASE phalcon CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+  GRANT ALL ON phalcon.* TO phalcon@localhost IDENTIFIED BY 'phalcon';
+  FLUSH PRIVILEGES;
+  ```
+  2. Insert application data
+
+  ```bash
+  cd dev/database
+  ../../vendor/bin/propel sql:insert
+  ```
 
 # Notes
 
