@@ -39,6 +39,8 @@ We will use Propel 2 for databse design and maintaining database only leaving co
   ```
   2. Insert application data
 
+  > **WARNING:** The schema.sql file will DROP any existing tables, please connect to an empty database only.
+
   ```bash
   cd dev/database
   ../../vendor/bin/propel sql:insert
