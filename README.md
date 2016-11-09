@@ -46,6 +46,30 @@ We will use Propel 2 for databse design and maintaining database only leaving co
   ../../vendor/bin/propel sql:insert
   ```
 
+  3. Development
+
+  Edit './dev/database/schema.xml'. On changes completion, run from project root:
+
+  ```bash
+  ./bin/migrate-dev.sh
+  ```
+
+  This will implement your database structure changes without data losses. The script will create incremental updates files in 'dev/database/generated-migrations/PropelMigration_*' and run them on the current database.
+
+  We have two more files for better control of the development and migration process. The _migrate-revert-once.sh_ reverts one change back. The _migrate-restore-once.sh_ reverts the reverted back.
+
+  Upload the diff files to the production environment.
+
+  ```bash
+  ./bin/migrate-prod.sh
+  ```
+
+  To view the current migration status, run:
+
+  ```bash
+  ./bin/migrate-status.sh
+  ```
+
 # Notes
 
 To test live reload, edit, for instance, _dev/app/views/index/index.volt_ and save it. See the browser reloading.
@@ -56,8 +80,8 @@ Tested under Linux only. Seems to be well-compliant with xdebug. For custom conf
 
   * database
     - [X] easy database setup with Propel ORM
-    - [ ] declarative incremental develoment
-    - [ ] incremental deployment to production
+    - [X] declarative incremental develoment
+    - [X] incremental deployment to production
   * phalcon
     - [ ] modules and configuration
     - [ ] i18n with gettext
