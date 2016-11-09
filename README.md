@@ -15,7 +15,7 @@ A custom starter boilerplate with php7, phalcon framework and live reload
 ```bash
 # preapre all
 $ npm install
-$ composer install
+$ composer Install
 # check with:
 $ bin/phalcon commands
 # build application with devtools - skip this part
