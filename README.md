@@ -7,6 +7,7 @@ A custom starter boilerplate with php7, phalcon framework and live reload
  * phalcon extension installed
  * npm
  * composer
+ * ansible
 
 # Workflow
 
@@ -97,5 +98,7 @@ Tested under Linux only. Seems to be well-compliant with xdebug. For custom conf
   * unit testing
     - [ ] phpUnit
     - [ ] karma + protractor
+  * deployment
+    - [ ] simple ansible deployment script example
 
 
