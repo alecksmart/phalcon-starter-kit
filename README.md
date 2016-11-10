@@ -100,5 +100,3 @@ Tested under Linux only. Seems to be well-compliant with xdebug. For custom conf
     - [ ] karma + protractor
   * deployment
     - [ ] simple ansible deployment script example
-
-
