@@ -83,6 +83,8 @@ Tested under Linux only. Seems to be well-compliant with xdebug. For custom conf
     - [X] easy database setup with Propel ORM
     - [X] declarative incremental develoment
     - [X] incremental deployment to production
+  * deployment
+    - [ ] simple ansible deployment script example
   * phalcon
     - [ ] modules and configuration
     - [ ] i18n with gettext
@@ -98,5 +100,3 @@ Tested under Linux only. Seems to be well-compliant with xdebug. For custom conf
   * unit testing
     - [ ] phpUnit
     - [ ] karma + protractor
-  * deployment
-    - [ ] simple ansible deployment script example
