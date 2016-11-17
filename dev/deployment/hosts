@@ -1,0 +1,2 @@
+[php]
+#your_server_ip ansible_ssh_user=some_alec
